@@ -2,20 +2,16 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="windows-1251">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Furman Kirill">
-    <meta name="generator" content="">
-    <title>Hosting</title>
+    <meta name="generator" content="https://github.com/Drawishe/webdev-exam">
+    <title>Регистрация доменов ru/рф</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/pricing/">
-
-    <!-- Bootstrap core CSS -->
-<link href="dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
-    <style>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
+	
+	 <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -31,112 +27,283 @@
         }
       }
     </style>
+
+    <!-- Bootstrap core CSS -->
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    
     <!-- Custom styles for this template -->
-    <link href="pricing.css" rel="stylesheet">
+    <link href="/css/carousel.css" rel="stylesheet">
   </head>
   <body>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-  <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
-  <nav class="my-2 my-md-0 mr-md-3">
-    <a class="p-2 text-dark" href="#">Features</a>
-    <a class="p-2 text-dark" href="#">Enterprise</a>
-    <a class="p-2 text-dark" href="#">Support</a>
-    <a class="p-2 text-dark" href="#">Pricing</a>
+    <header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="host.html">Хостинг</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Домены <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Конструктор и CMS</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">VPS</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">Серверы и ДЦ</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">SSL</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">Сервисы</a>
+        </li>
+        
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Введите домен или слово" aria-label="Search" align=center>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Подобрать</button>
+      </form>
+	  <a class="btn btn-outline-secondary" href="#">Регистрация</a>
+	  <a class="btn btn-outline-primary" href="#" margin-right:50px;>Войти</a>
+    </div>
   </nav>
-  <a class="btn btn-outline-primary" href="#">Sign up</a>
-</div>
+</header>
 
-<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-  <h1 class="display-4">Pricing</h1>
-  <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It�s built with default Bootstrap components and utilities with little customization.</p>
-</div>
 
-<div class="container">
-  <div class="card-deck mb-3 text-center">
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Free</h4>
+<main role="main">
+
+
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <<img src="/img/cosmos.jpg" class="d-block w-100" alt="space">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Доменная зона .SPACE всего за 64 рубля!</h1>
+          <p>Безграничные возможности для ваших идей</p>
+            
+          </div>
+        </div>
       </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>10 users included</li>
-          <li>2 GB of storage</li>
-          <li>Email support</li>
-          <li>Help center access</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Pro</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>20 users included</li>
-          <li>10 GB of storage</li>
-          <li>Priority email support</li>
-          <li>Help center access</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-      </div>
-    </div>
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Enterprise</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>30 users included</li>
-          <li>15 GB of storage</li>
-          <li>Phone and email support</li>
-          <li>Help center access</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-right">
+            <h1>One more for good measure.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          </div>
+        </div>
       </div>
     </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-
-  <footer class="pt-4 my-md-5 pt-md-5 border-top">
-    <div class="row">
-      <div class="col-12 col-md">
-        <img class="mb-2" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-        <small class="d-block mb-3 text-muted">&copy; 2017-2019</small>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Features</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Cool stuff</a></li>
-          <li><a class="text-muted" href="#">Random feature</a></li>
-          <li><a class="text-muted" href="#">Team feature</a></li>
-          <li><a class="text-muted" href="#">Stuff for developers</a></li>
-          <li><a class="text-muted" href="#">Another one</a></li>
-          <li><a class="text-muted" href="#">Last time</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Resource</a></li>
-          <li><a class="text-muted" href="#">Resource name</a></li>
-          <li><a class="text-muted" href="#">Another resource</a></li>
-          <li><a class="text-muted" href="#">Final resource</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>About</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Team</a></li>
-          <li><a class="text-muted" href="#">Locations</a></li>
-          <li><a class="text-muted" href="#">Privacy</a></li>
-          <li><a class="text-muted" href="#">Terms</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+	  
+	  <!-- Блоки с картинками -->
+     <div class="row">
+     <div class = "col-sm-4">
+ 		<div class="container">
+     			<div class="row">
+     				<img src="img/server.jpg" class = "gray-img width="100" height="300">
+     			</div>
+     		<div class="row grey-field">
+     				<h3>Хостинг и серверы</h3>
+     				<br>
+					Надёжный классический и VIP хостинг, VPS с SSD+HDD и SSD носителями, Dedicated. Домены в подарок.
+				<div class="row">
+     				<div class="col-sm">
+     					<button class="btn btn-outline-success" type="submit"> подробнее</button>
+     				</div>
+     				<div class="col-sm">
+     					от 91 руб. в мес. 
+     				</div>
+ 				</div>
+    		</div> 
+ 		</div>
+	</div>
+     <div class = "col-sm-4">
+ 		<div class="container">
+     			<div class="row">
+     				<img src="img/smm.jpg" class = "gray-img" width="100" height="300">
+     			</div>
+     		<div class="row grey-field">
+     				<h3>Автоматическое SEO-продвижение</h3>
+     				<br>
+					Управление автоматизированным продвижением в поисковых системах
+				<div class="row">
+     				<div class="col-sm">
+     					<button class="btn btn-outline-success" type="submit"> подробнее</button>
+     				</div>
+     				
+ 				</div>
+    		</div> 
+ 		</div>
+	</div>
+ 	<div class = "col-sm-4">
+ 		<div class="container">
+     			<div class="row">
+     				<img src="img/ssl.jpg" class = "gray-img" width="100" height="300">
+     			</div>
+     		<div class="row grey-field">
+     				<h3>SSL-сертификаты</h3>
+     				<br>
+					Гарантия статуса сайта и безопасности передаваемых данных. Незаменимо для e-commerce.
+				<div class="row">
+     				<div class="col-sm">
+     					<button class="btn btn-outline-success" type="submit"> подробнее</button>
+     				</div>
+     				<div class="col-sm">
+     					от 1099 руб. 
+     				</div>
+ 				</div>
+    		</div> 
+ 		</div>
+	</div>
 </div>
-</body>
+ </div>
+	  
+	  <!-- Новости -->
+
+<div class="row news">
+    <div class = "col-sm-8">
+     	<h3>Новости</h3>
+     		
+     			<span> <b class="grey1">13 июня 2019г.</b>
+     			<br>
+     		 	Скидка 50% на услугу "Администрирование сервера"
+     		 	<br>
+				Сэкономьте до 42% на SSL-сертификате до 20 июня
+				<br>
+     		 	</span>
+     		
+     			<span> <b class="grey1">11 июня 2019г.</b>
+     			<br>
+     		 	Только до 14 июня: домены .RU . РФ .МОСКВА .MOSCOW  от 177 рублей
+     		 	<br>
+     		 	</span>
+     		
+     			<span> <b class="grey1">10 июня 2019г.</b>
+     			<br>
+     		 	бесплатное скрытие персональных данных при регистрации международных доменов
+     		 	<br>
+     		 	</span>
+     		
+     		
+    </div> 
+    <div class = "col-sm-4 news">
+     	<h3>Мероприятия</h3>
+     		
+     			<span> <b class="grey1">19 июня, Москва</b>
+     			<br>
+     		 	Скидка на участие в конференции Social Media Moscow
+     		 	<br>
+     		 	</span>
+     		
+     		
+     			<span> <b class="grey1">21-22 июня, Москва</b>
+     			<br>
+     		 	DevConf - конференция для профессиональных веб-разработчиков
+     		 	<br>
+     		 	</span>
+     		
+     		
+     		
+    </div>
+</div> 
+
+
+<h1 align=center>Почему мы? Это просто!</h1>
+<div class="row">
+     <div class = "col-sm">
+     	<div class = "container yellow">
+     		<div><h1 align=center>№1</h1></div>
+			
+     	</div>
+		<p >регистратор и хостинг<p>-провайдер в России</p></p>
+     </div> 
+     <div class = "col-sm">
+     	<div class = "container yellow">
+     		<div><h1 align=center>34 млн</h1></div>
+			
+     	</div>
+		<p>оказанных услуг</p>
+     </div> 
+     <div class = "col-sm">
+     	<div class = "container yellow">
+     		<div><h1 align=center>3 млн</h1></div>
+			
+     	</div>
+		<p>доменов на обслуживании</p>
+     </div> 
+     <div class = "col-sm">
+     	<div class = "container yellow">
+     		<div><h1 align=center>1.9 млн</h1></div>
+			
+     	</div>
+		<p>более 1.9 млн клиентов</p>
+     </div>
+	 <div class = "col-sm">
+     	<div class = "container yellow">
+     		<div><h1 align=center>24/7</h1></div>
+			
+     	</div>
+		<p>профессиональная поддержка</p>
+     </div>
+     </div>
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+	<h1 align=center>Наши клиенты</h1>
+	<a border="0" align=center><img src="/img/clients.png" align=center></a>
+
+  <div class="container marketing">
+
+   
+
+
+    <!-- START THE FEATURETTES -->
+
+    
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
