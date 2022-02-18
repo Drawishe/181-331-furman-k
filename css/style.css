@@ -2,3 +2,22 @@
     background-color: rgb(13, 92, 187) !important;
 
 }
+.yellow{
+    border: 10px solid yellow;
+    text-align:center;
+    align-content: center;    
+}
+.mrg{
+    margin-bottom: 50%;
+}
+.yellow-box{
+    margin-top: 3%;
+}
+.whywe{
+    margin-bottom: 3%;
+    text-align: center;
+}
+.box-description{
+    text-align: center;
+    margin-top: 5%;
+}
