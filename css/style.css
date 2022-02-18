@@ -6,18 +6,37 @@
     border: 10px solid yellow;
     text-align:center;
     align-content: center;    
+    color: rgb(48 , 58, 88);
+    font-weight: 600;
 }
 .mrg{
     margin-bottom: 50%;
 }
-.yellow-box{
-    margin-top: 3%;
-}
+
 .whywe{
+    margin-top: 3%;
     margin-bottom: 3%;
     text-align: center;
+    color: rgb(48 , 58, 88);
+    font-size: 42pt;
+    font-weight: 600;
 }
 .box-description{
     text-align: center;
     margin-top: 5%;
+}
+.client_carous{
+    align-self: center;
+    width: 200px;
+    height: 50px;
+}
+.carous_col{
+    background-color: #808080;
+    align-content: center !important;
+    margin-bottom: 50%;
+}
+.carous{
+    height: 100px;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
 }
