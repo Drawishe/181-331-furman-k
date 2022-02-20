@@ -24,11 +24,13 @@
 .box-description{
     text-align: center;
     margin-top: 5%;
+    color: rgb(48 , 58, 88);
 }
 .client_carous{
+    align-content: center;
     align-self: center;
-    width: 200px;
-    height: 50px;
+    width: 200px !important; 
+    height: 50px !important;
 }
 .carous_col{
     background-color: #808080;
@@ -37,6 +39,6 @@
 }
 .carous{
     height: 100px;
-    margin-left: 10% !important;
-    margin-right: 10% !important;
+    /* margin-left: 10% !important;
+    margin-right: 10% !important; */
 }
