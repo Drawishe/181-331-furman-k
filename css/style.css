@@ -42,3 +42,14 @@
     /* margin-left: 10% !important;
     margin-right: 10% !important; */
 }
+.grey1{
+    background-color: rgb(240, 242 , 248);
+}
+.news-brd{
+    border: 5px solid rgb(240, 242 , 248)!important;
+    padding: 3%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    color: rgb(48 , 58, 88);    
+}
