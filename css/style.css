@@ -2,6 +2,10 @@
     background-color: rgb(13, 92, 187) !important;
 
 }
+.navigation_f{
+    background-color: rgb(13, 92, 187) !important;
+    height: 50px;
+}
 .yellow{
     border: 10px solid yellow;
     text-align:center;
@@ -10,7 +14,8 @@
     font-weight: 600;
 }
 .mrg{
-    margin-bottom: 50%;
+    margin-bottom: 25%;
+    margin-top: 25%;
 }
 
 .whywe{
@@ -52,4 +57,25 @@
     margin-top: 5%;
     margin-bottom: 3%;
     color: rgb(48 , 58, 88);    
+}
+.bf_footer{
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-weight: 500;
+    font-size: 22pt;   
+    margin-bottom: 25%;
+    
+}
+.foot{
+    background-color: rgb(48, 58, 88);
+    margin-top: -0.39% !important;
+}
+.ocenci{
+    color: rgb(48 , 58, 88);
+    font-size: 42pt;
+    font-weight: 600;
+}
+.ocenci_podpis{
+    color: rgb(48 , 58, 88);
 }
